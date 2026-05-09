@@ -22,7 +22,8 @@
     }
 
     nav a.active {
-        background-color: rgba(255, 255, 255, 0.2);
+        background-color: #444;
+        color: #fff;
         font-weight: bold;
     }
 
@@ -140,7 +141,7 @@
     }
 
     footer {
-        background-color: #c0bfbf;
+        background-color: #8a8a8a;
         color: white;
         padding: 5px 10px;
         display: flex;

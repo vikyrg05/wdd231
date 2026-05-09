@@ -85,14 +85,9 @@ nav a:hover {
 }
 
 #courses div.completed {
-    background-color: #70a9ff;
-    color: #000;
-}
-
-.completed {
     background-color: #2e5a88;
-    color: #ffffff;
-    border: 2px solid #1b3f66;
+    color: #fff;
+    border: 2px solid #1b3f66
 }
 
 section h2 {
@@ -110,12 +105,13 @@ section {
     padding: 15px;
 }
 
-.section p {
+section p {
     text-align: center;
 }
 
 section:last-of-type p {
     text-align: center;
+    font-weight: bold;
 }
 
 .social {
@@ -150,12 +146,6 @@ section:last-of-type p {
     border: 1px solid #ccc;
     background-color: #eee;
     cursor: pointer;
-    font-weight: bold;
-}
-
-#totalCredits {
-    display: block;
-    text-align: center;
     font-weight: bold;
 }
 
