@@ -1,0 +1,60 @@
+{
+    "members": [
+        {
+            "name": "Cochabamba Tech Solutions",
+            "address": "Av. Heroinas 123, Cochabamba",
+            "phone": "+591 70000001",
+            "website": "https://techsolutions.bo",
+            "image": "tech.webp",
+            "membership": 3
+        },
+        {
+            "name": "Andes Market",
+            "address": "Calle Sucre 456, Cochabamba",
+            "phone": "+591 70000002",
+            "website": "https://andesmarket.bo",
+            "image": "market.webp",
+            "membership": 2
+        },
+        {
+            "name": "Bolivia Foods",
+            "address": "Av. Pando 789, Cochabamba",
+            "phone": "+591 70000003",
+            "website": "https://boliviafoods.bo",
+            "image": "foods.webp",
+            "membership": 1
+        },
+        {
+            "name": "Innova Marketing",
+            "address": "Av. España 321, Cochabamba",
+            "phone": "+591 70000004",
+            "website": "https://innovamarketing.bo",
+            "image": "marketing.webp",
+            "membership": 2
+        },
+        {
+            "name": "EcoBuild Construction",
+            "address": "Av. Blanco Galindo 654, Cochabamba",
+            "phone": "+591 70000005",
+            "website": "https://ecobuild.bo",
+            "image": "construction.webp",
+            "membership": 3
+        },
+        {
+            "name": "Smart Services",
+            "address": "Calle San Martin 987, Cochabamba",
+            "phone": "+591 70000006",
+            "website": "https://smartservices.bo",
+            "image": "services.webp",
+            "membership": 1
+        },
+        {
+            "name": "Cochabamba Digital Hub",
+            "address": "Av. america 555, Cochabamba",
+            "phone": "+591 70000007",
+            "website": "https://digitalhub.bo",
+            "image": "digital.webp",
+            "membership": 3
+        }
+    ]
+}
