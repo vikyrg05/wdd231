@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cochabamba Chamber of Commerce</title>
+    <meta name="description"
+        content="Welcome to the Cochabamba Chamber of Commerce. Discover local businesses, events, and opportunities to connect and grow.">
+    <meta name="author" content="Virginia Rocha">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <meta property="og:title" content="Cochabamba Chamber of Commerce">
+    <meta property="og:description" content="Official home page of the Cochabamba Chamber of Commerce.">
+    <meta property="og:image" content="https://vikyrg05.github.io/wdd231/chamber/images/chamber.webp">
+    <meta property="og:url" content="https://vikyrg05.github.io/wdd231/chamber/index.html">
+    <meta property="og:type" content="website">
+
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/chamber.webp" alt="Cochabamba Chamber Logo" width="50" height="50">
+
+            <span>Cochabamba Chamber of Commerce</span>
+        </div>
+
+        <button id="nav-button" class="hamburger" aria-label="Open menu">≡</button>
+    </header>
+
+    <nav id="nav-menu">
+        <a href="index.html" class="active">Home</a>
+        <a href="discover.html">Discover</a>
+        <a href="directory.html">Directory</a>
+        <a href="join.html">Join</a>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <img src="images/hero.webp" alt="Cochabamba city view">
+
+            <div class="hero-text">
+                <h1>Welcome to the Cochabamba Chamber of Commerce</h1>
+            </div>
+
+            <a href="join.html" class="cta-button">Join the Chamber</a>
+        </section>
+
+        <div class="home-grid">
+
+            <section class="events">
+                <h2>Current Events</h2>
+                <p>Join our upcoming business networking event this Friday at 6:00 PM in Cochabamba.</p>
+            </section>
+
+            <section class="weather">
+                <h2>Current Weather</h2>
+                <p>Temperature: <span id="current-temp"></span></p>
+                <figure>
+                    <img id="weather-icon" src="images/weather.webp" alt="Weather icon">
+                    <figcaption></figcaption>
+                </figure>
+            </section>
+
+            <section class="forecast">
+                <h2>Weather Forecast</h2>
+                <p>3-Day Forecast:</p>
+                <ul id="forecast"></ul>
+            </section>
+        </div>
+
+        <section class="spotlights">
+            <h2>Company Spotlights</h2>
+            <div id="spotlight-container"></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-contact">
+            <p><strong>Cochabamba Chamber of Commerce</strong></p>
+            <p>Cochabamba, Bolivia</p>
+            <p>info@cochabambachamber.com</p>
+            <p>+591 70000000</p>
+        </div>
+
+        <div class="footer-social">
+            <a href="https://github.com/vikyrg05/wdd231" target="_blank">
+                <img src="images/github.webp" alt="GitHub">
+            </a>
+            <a href="https://www.linkedin.com/in/virginia-rocha-guzman-516639205/" target="_blank">
+                <img src="images/linkedin.webp" alt="LinkedIn">
+            </a>
+            <a href="https://www.youtube.com/@virginiarocha7072/posts" target="_blank">
+                <img src="images/youtube.webp" alt="YouTube">
+            </a>
+        </div>
+
+        <div class="footer-info">
+            <p>WDD231 Class Project</p>
+            <p>Virginia Rocha</p>
+            <p>&copy;2026 Cochabamba Chamber of Commerce</p>
+            <p>Last Modification: <span id="lastModified"></span></p>
+        </div>
+    </footer>
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/spotlights.js" defer></script>
+
+</body>
+
+</html>

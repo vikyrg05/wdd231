@@ -1,7 +1,7 @@
 {
     "members": [
         {
-            "name": "Cochabamba Tech Solutions",
+            "name": "COCHABAMBA TECH SOLUTIONS",
             "address": "Av. Heroinas 123, Cochabamba",
             "phone": "+591 70000001",
             "website": "https://techsolutions.bo",
@@ -9,7 +9,7 @@
             "membership": 3
         },
         {
-            "name": "Andes Market",
+            "name": "ANDES MARKET",
             "address": "Calle Sucre 456, Cochabamba",
             "phone": "+591 70000002",
             "website": "https://andesmarket.bo",
@@ -17,7 +17,7 @@
             "membership": 2
         },
         {
-            "name": "Bolivia Foods",
+            "name": "BOLIVIA FOODS",
             "address": "Av. Pando 789, Cochabamba",
             "phone": "+591 70000003",
             "website": "https://boliviafoods.bo",
@@ -25,7 +25,7 @@
             "membership": 1
         },
         {
-            "name": "Innova Marketing",
+            "name": "INNOVA MARKETING",
             "address": "Av. España 321, Cochabamba",
             "phone": "+591 70000004",
             "website": "https://innovamarketing.bo",
@@ -33,7 +33,7 @@
             "membership": 2
         },
         {
-            "name": "EcoBuild Construction",
+            "name": "ECOBUILD CONSTRUCTION",
             "address": "Av. Blanco Galindo 654, Cochabamba",
             "phone": "+591 70000005",
             "website": "https://ecobuild.bo",
@@ -41,7 +41,7 @@
             "membership": 3
         },
         {
-            "name": "Smart Services",
+            "name": "SMART SERVICES",
             "address": "Calle San Martin 987, Cochabamba",
             "phone": "+591 70000006",
             "website": "https://smartservices.bo",
@@ -49,7 +49,7 @@
             "membership": 1
         },
         {
-            "name": "Cochabamba Digital Hub",
+            "name": "COCHABAMBA DIGITAL HUB",
             "address": "Av. america 555, Cochabamba",
             "phone": "+591 70000007",
             "website": "https://digitalhub.bo",

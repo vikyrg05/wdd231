@@ -15,8 +15,8 @@ header {
     background-color: #1e3a5f;
     color: white;
     padding: 1rem;
-    flex-direction: column;
-    text-align: center;
+    flex-direction: row;
+    text-align: left;
 }
 
 header img {
@@ -35,8 +35,9 @@ img {
 
 .logo {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    gap: 0.5rem;
 }
 
 nav {
@@ -65,30 +66,12 @@ nav.open {
 }
 
 main {
-    padding: 1rem;
+    display: block;
+    padding: 0;
 }
 
 h1 {
     text-align: center;
-}
-
-.view-buttons {
-    text-align: center;
-    margin-bottom: 1rem;
-}
-
-.view-buttons button {
-    padding: 0.5rem 1rem;
-    margin: 0.2rem;
-    border: none;
-    background-color: #2c5282;
-    color: white;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.view-buttons button:hover {
-    background-color: #1e3a5f;
 }
 
 section {
@@ -144,7 +127,6 @@ footer {
     background-color: #1e3a5f;
     color: white;
     padding: 0.5rem;
-    margin-top: 2rem;
     text-align: center;
 }
 
@@ -158,10 +140,104 @@ footer p {
     font-size: 0.9rem;
 }
 
+.footer-social {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.footer-social img {
+    width: 40px;
+    height: 40px;
+}
+
 .hamburger {
     font-size: 2rem;
     background: none;
     border: none;
     color: white;
     cursor: pointer;
+}
+
+#spotlight-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+#spotlight-container img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero-text {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.hero img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.cta-button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: #2c5282;
+    color: white;
+    padding: 0.4rem 0.8rem;
+    font-size: 0.8rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.forecast {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.forecast p {
+    margin: 0 0 1rem 0;
+}
+
+#forecast {
+    margin-top: 0.5rem;
+    padding: 0;
+    list-style: none;
+}
+
+.home-grid section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    padding: 1rem;
+}
+
+.home-grid section h2 {
+    margin: 0 0 1rem 0;
+}
+
+.events h2,
+.weather h2,
+.forecast h2 {
+    background-color: #2c5282;
+    color: white;
+    padding: 0.4rem;
+    border-radius: 5px;
 }
