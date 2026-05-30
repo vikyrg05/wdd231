@@ -124,4 +124,14 @@
         font-size: 1rem;
         padding: 0.6rem 1rem;
     }
+
+    .join-layout {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 1rem;
+    }
+
+    .membership-cards {
+        margin-top: 0;
+    }
 }
