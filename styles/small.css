@@ -1,0 +1,178 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 40px auto 44px;
+    align-items: center;
+    padding: 1rem;
+}
+
+header img {
+    width: 40px;
+    height: auto;
+}
+
+header span {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.hamburger {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.hamburger::before {
+    content: "\2630";
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+nav a {
+    display: none;
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+nav a.active {
+    background-color: #ddd;
+}
+
+nav a:hover {
+    background-color: #bbb;
+}
+
+.show a {
+    display: block;
+}
+
+.hamburger.show::before {
+    content: "\00D7";
+}
+
+.photo-container img {
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    max-width: 200px;
+}
+
+#courses {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 10px;
+    margin-top: 1rem;
+}
+
+#courses div {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #f4f4f4;
+    font-weight: bold;
+    color: #000;
+}
+
+#courses div.completed {
+    background-color: #2e5a88;
+    color: #fff;
+    border: 2px solid #1b3f66
+}
+
+section h2 {
+    background-color: #333;
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+section {
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    background-color: #fff;
+    padding: 15px;
+}
+
+section p {
+    text-align: center;
+}
+
+section:last-of-type p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.social a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+.social a img {
+    width: 20px;
+    height: 20px;
+}
+
+.filter-buttons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.filter-buttons button {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    background-color: #eee;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+}
+
+#course-details {
+    border: 1px solid rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    padding: 1.5rem;
+    background-color: #fff;
+    box-shadow: 0 0 2rem #777;
+    width: 90%;
+    max-width: 400px;
+    position: relative;
+}
+
+#course-details::backdrop {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#course-details button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background-color: #eee;
+    cursor: pointer;
+}

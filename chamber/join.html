@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join - Cochabamba Chamber of Commerce</title>
+    <meta name="description"
+        content="Join the Cochabamba Chamber of Commerce and become part of our business community.">
+    <meta name="author" content="Virginia Rocha">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <meta property="og:title" content="Cochabamba Chamber of Commerce">
+    <meta property="og:description" content="Official home page of the Cochabamba Chamber of Commerce.">
+    <meta property="og:image" content="https://vikyrg05.github.io/wdd231/chamber/images/chamber.webp">
+    <meta property="og:url" content="https://vikyrg05.github.io/wdd231/chamber/index.html">
+    <meta property="og:type" content="website">
+
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/chamber.webp" alt="Cochabamba Chamber Logo" width="50" height="50">
+
+            <span>Cochabamba Chamber of Commerce</span>
+        </div>
+
+        <button id="nav-button" class="hamburger" aria-label="Open menu">≡</button>
+    </header>
+
+    <nav id="nav-menu">
+        <a href="index.html">Home</a>
+        <a href="discover.html">Discover</a>
+        <a href="directory.html">Directory</a>
+        <a href="join.html" class="active">Join</a>
+    </nav>
+
+    <main>
+        <h1>Join the Chamber</h1>
+
+        <section>
+            <p>Complete the form below to apply for membership in the Cochabamba Chamber of Commerce.</p>
+        </section>
+
+        <div class="join-layout">
+            <form method="GET" action="thankyou.html">
+                <h2>Membership Application Form</h2>
+                <label>
+                    First Name <input type="text" name="first" required title="Enter your first name"
+                        autocomplete="given-name">
+                </label>
+                <label>
+                    Last Name <input type="text" name="last" required title="Enter your last name"
+                        autocomplete="family-name">
+                </label>
+
+                <label>
+                    Organization Title <input type="text" name="orgtitle"
+                        title="Enter your organizational title (min 7 characters, letters, hyphens, spaces only)"
+                        autocomplete="organization-title" pattern="[A-Za-z ]{7,}">
+                </label>
+                <label>
+                    Email <input type="email" name="email" required title="Enter your email"
+                        placeholder="example@email.com" autocomplete="email">
+                </label>
+                <label>
+                    Mobile Phone <input type="tel" name="phone" required title="Enter your phone number"
+                        autocomplete="tel">
+                </label>
+                <label>
+                    Business Name <input type="text" name="business" required title="Enter your business name"
+                        autocomplete="organization">
+                </label>
+
+                <fieldset>
+                    <legend>Membership Level</legend>
+
+                    <label><input type="radio" name="membership" value="np" required>NP Membership</label>
+                    <label><input type="radio" name="membership" value="bronze">Bronze Membership</label>
+                    <label><input type="radio" name="membership" value="silver">Silver Membership</label>
+                    <label><input type="radio" name="membership" value="gold">Gold Membership</label>
+                </fieldset>
+
+                <label>
+                    Business Description <textarea name="description" title="Describe your business"></textarea>
+                </label>
+
+                <input type="hidden" name="timestamp" id="timestamp">
+
+                <input type="submit" value="Apply for Membership">
+            </form>
+
+            <section class="membership-cards">
+                <h2>Membership Levels</h2>
+
+                <div class="cards-container">
+                    <div class="card">
+                        <h3>Non Profit Membership Level</h3>
+                        <button onclick="document.getElementById('npModal').showModal()">Learn More</button>
+                    </div>
+                    <div class="card">
+                        <h3>Bronze Membership Level</h3>
+                        <button onclick="document.getElementById('bronzeModal').showModal()">Learn More</button>
+                    </div>
+                    <div class="card">
+                        <h3>Silver Membership Level</h3>
+                        <button onclick="document.getElementById('silverModal').showModal()">Learn More</button>
+                    </div>
+                    <div class="card">
+                        <h3>Gold Membership Level</h3>
+                        <button onclick="document.getElementById('goldModal').showModal()">Learn More</button>
+                    </div>
+                </div>
+
+                <dialog id="npModal">
+                    <h3>NP Membership</h3>
+                    <p>No cost. Includes basic directory listing and community events.</p>
+                    <button onclick="this.parentElement.close()">Close</button>
+                </dialog>
+                <dialog id="bronzeModal">
+                    <h3>Bronze Membership</h3>
+                    <p>Basic listing and networking opportunities.</p>
+                    <button onclick="this.parentElement.close()">Close</button>
+                </dialog>
+                <dialog id="silverModal">
+                    <h3>Silver Membership</h3>
+                    <p>Includes events, training, and promotions.</p>
+                    <button onclick="this.parentElement.close()">Close</button>
+                </dialog>
+                <dialog id="goldModal">
+                    <h3>Gold Membership</h3>
+                    <p>Premium benefits, spotlight ads, and discounts.</p>
+                    <button onclick="this.parentElement.close()">Close</button>
+                </dialog>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-contact">
+            <p><strong>Cochabamba Chamber of Commerce</strong></p>
+            <p>Cochabamba, Bolivia</p>
+            <p>info@cochabambachamber.com</p>
+            <p>+591 70000000</p>
+        </div>
+
+        <div class="footer-social">
+            <a href="https://github.com/vikyrg05/wdd231" target="_blank">
+                <img src="images/github.webp" alt="GitHub">
+            </a>
+            <a href="https://www.linkedin.com/in/virginia-rocha-guzman-516639205/" target="_blank">
+                <img src="images/linkedin.webp" alt="LinkedIn">
+            </a>
+            <a href="https://www.youtube.com/@virginiarocha7072/posts" target="_blank">
+                <img src="images/youtube.webp" alt="YouTube">
+            </a>
+        </div>
+
+        <div class="footer-info">
+            <p>WDD231 Class Project</p>
+            <p>Virginia Rocha</p>
+            <p>&copy;2026 Cochabamba Chamber of Commerce</p>
+            <p>Last Modification: <span id="lastModified"></span></p>
+        </div>
+    </footer>
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/join.js" defer></script>
+
+</body>
+
+</html>
