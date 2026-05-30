@@ -105,41 +105,41 @@
                 <div class="cards-container">
                     <div class="card">
                         <h3>Non Profit Membership Level</h3>
-                        <button onclick="document.getElementById('npModal').showModal()">Learn More</button>
+                        <button data-modal="npModal">Learn More</button>
                     </div>
                     <div class="card">
                         <h3>Bronze Membership Level</h3>
-                        <button onclick="document.getElementById('bronzeModal').showModal()">Learn More</button>
+                        <button data-modal="bronzeModal">Learn More</button>
                     </div>
                     <div class="card">
                         <h3>Silver Membership Level</h3>
-                        <button onclick="document.getElementById('silverModal').showModal()">Learn More</button>
+                        <button data-modal="silverModal">Learn More</button>
                     </div>
                     <div class="card">
                         <h3>Gold Membership Level</h3>
-                        <button onclick="document.getElementById('goldModal').showModal()">Learn More</button>
+                        <button data-modal="goldModal">Learn More</button>
                     </div>
                 </div>
 
                 <dialog id="npModal">
                     <h3>NP Membership</h3>
                     <p>No cost. Includes basic directory listing and community events.</p>
-                    <button onclick="this.parentElement.close()">Close</button>
+                    <button data-close>Close</button>
                 </dialog>
                 <dialog id="bronzeModal">
                     <h3>Bronze Membership</h3>
                     <p>Basic listing and networking opportunities.</p>
-                    <button onclick="this.parentElement.close()">Close</button>
+                    <button data-close>Close</button>
                 </dialog>
                 <dialog id="silverModal">
                     <h3>Silver Membership</h3>
                     <p>Includes events, training, and promotions.</p>
-                    <button onclick="this.parentElement.close()">Close</button>
+                    <button data-close>Close</button>
                 </dialog>
                 <dialog id="goldModal">
                     <h3>Gold Membership</h3>
                     <p>Premium benefits, spotlight ads, and discounts.</p>
-                    <button onclick="this.parentElement.close()">Close</button>
+                    <button data-close>Close</button>
                 </dialog>
             </section>
         </div>
