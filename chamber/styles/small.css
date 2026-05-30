@@ -62,7 +62,7 @@ nav a.active {
 }
 
 nav.open {
-    display: flex
+    display: flex;
 }
 
 main {
@@ -240,8 +240,7 @@ footer p {
     color: white;
     padding: 0.4rem;
     border-radius: 5px;
-<<<<<<< HEAD
-=======
+
 }
 
 
@@ -351,5 +350,4 @@ textarea:focus,
 button:focus {
     outline: 3px solid #2c5282;
     outline-offset: 2px;
->>>>>>> recovery-chamber
 }
