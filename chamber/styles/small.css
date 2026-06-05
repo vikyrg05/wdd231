@@ -351,3 +351,67 @@ button:focus {
     outline: 3px solid #2c5282;
     outline-offset: 2px;
 }
+
+
+
+#discover-cards {
+    display: grid;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.discover-card {
+    display: grid;
+    grid-template-areas: 
+        "title" 
+        "image" 
+        "address" 
+        "description" 
+        "button";
+    gap: 0.75rem;
+}
+
+.discover-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    grid-area: title;
+    margin: 0;
+}
+
+.card-image {
+    grid-area: image;
+    margin: 0;
+}
+
+.card-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.card-address {
+    grid-area: address;
+    font-style: italic;
+}
+
+.card-description {
+    grid-area: description;
+}
+
+.card-button {
+    grid-area: button;
+}
+
+#visit-message {
+    background-color: #e8f1ff;
+    border-left: 5px solid #2c5282;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 8px;
+    font-weight: bold;
+}
