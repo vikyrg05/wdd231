@@ -4,19 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Places | Cochabamba Travel Guide</title>
-    <meta name="description" content="Explore the top tourist attractions, natural landscapes, historical sites, and cultural landmarks in Cochabamba, Bolivia.">
+    <title>Contact  Us | Cochabamba Travel Guide</title>
+    <meta name="description" content="Contact Cochabamba Travel Guide to ask questions, share your comments, or get more information about visiting Cochabamba, Bolivia.">
     <meta name="author" content="Virginia Rocha">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
-    <meta property="og:title" content="Places - Cochabamba Travel Guide">
+    <meta property="og:title" content="Contact Us - Cochabamba Travel Guide">
     <meta property="og:description"
-        content="Discover the most impressive tourist attractions, scenic landscapes, and cultural sites in Cochabamba, Bolivia.">
+        content="Get in touch with Cochabamba Travel Guide to ask questions or share your travel interests about Cochabamba, Bolivia.">
     <meta property="og:image" content="https://vikyrg05.github.io/wdd231/project/images/cochabamba-hero.webp">
-    <meta property="og:url" content="https://vikyrg05.github.io/wdd231/project/places.html">
+    <meta property="og:url" content="https://vikyrg05.github.io/wdd231/project/form.html">
     <meta property="og:type" content="website">
 
     <link rel="icon" href="favicon.ico">
@@ -38,23 +38,26 @@
 
         <nav id="nav-menu" aria-label="Main Navigation">
             <a href="index.html">Home</a>
-            <a href="places.html" class="active">Places</a>
+            <a href="places.html">Places</a>
             <a href="tips.html">Tips</a>
-            <a href="form.html">Contact</a>
+            <a href="form.html" class="active">Contact</a>
         </nav>
     </header>
 
     <main>
-        <section class="places-hero">
-            <h2>Explore Cochabamba's Best Places</h2>
-            <p>Discover mountains, historic sites, parks, and cultural landmarks that make Cochabamba a unique
-                destination.</p>
-        </section>
+        <h2>Contact Us</h2>
+        <form action="thankyou.html" method="get">
+                <label for="name">Name:</label>
+                <input id="name" type="text" name="name" required>
 
-        <section class="all-places">
-            <h2>Tourist Destinations</h2>
-            <div id="all-places-container"></div>
-        </section>
+                <label for="email">Email:</label>
+                <input id="email" type="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send</button>
+        </form>
     </main>
 
     <footer>
@@ -87,7 +90,6 @@
     </footer>
 
     <script src="scripts/navigation.js" defer></script>
-    <script type="module" src="scripts/places.js"></script>
 </body>
 
 </html>

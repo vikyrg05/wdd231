@@ -4,19 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Places | Cochabamba Travel Guide</title>
-    <meta name="description" content="Explore the top tourist attractions, natural landscapes, historical sites, and cultural landmarks in Cochabamba, Bolivia.">
+    <title>Attributions - Cochabamba Travel Guide</title>
+    <meta name="description"
+        content="Sources and credits for images and content used in the Cochabamba Travel Guide project.">
     <meta name="author" content="Virginia Rocha">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
-    <meta property="og:title" content="Places - Cochabamba Travel Guide">
+    <meta property="og:title" content="Cochabamba Travel Guide">
     <meta property="og:description"
-        content="Discover the most impressive tourist attractions, scenic landscapes, and cultural sites in Cochabamba, Bolivia.">
+        content="Discover the best places to visit and travel experiences in Cochabamba, Bolivia.">
     <meta property="og:image" content="https://vikyrg05.github.io/wdd231/project/images/cochabamba-hero.webp">
-    <meta property="og:url" content="https://vikyrg05.github.io/wdd231/project/places.html">
+    <meta property="og:url" content="https://vikyrg05.github.io/wdd231/project/attributions.html">
     <meta property="og:type" content="website">
 
     <link rel="icon" href="favicon.ico">
@@ -26,34 +27,41 @@
     <link rel="stylesheet" href="styles/large.css">
 </head>
 
-<body>
+<body class="attributions-page">
     <header>
         <div class="logo">
             <img src="images/logo.webp" alt="Cochabamba Travel Guide Logo" width="50" height="50">
         </div>
 
-        <h1>Cochabamba Travel Guide</h1>
+        <h1>Attributions</h1>
 
-        <button id="menu-button" aria-label="Open navigation menu">☰</button>
+        <button id="menu-button" aria-label="Toggle navigation menu">☰</button>
 
         <nav id="nav-menu" aria-label="Main Navigation">
             <a href="index.html">Home</a>
-            <a href="places.html" class="active">Places</a>
+            <a href="places.html">Places</a>
             <a href="tips.html">Tips</a>
             <a href="form.html">Contact</a>
         </nav>
     </header>
 
-    <main>
-        <section class="places-hero">
-            <h2>Explore Cochabamba's Best Places</h2>
-            <p>Discover mountains, historic sites, parks, and cultural landmarks that make Cochabamba a unique
-                destination.</p>
+    <main class="attractions">
+        <section>
+            <h2>Images</h2>
+            <p>
+                All images used in this website were obtained from Wikimedia Commons.
+            </p>
+
+            <p>
+                Source: <a href="https://commons.wikimedia.org/wiki/Main_Page" target="_blank">Wikimedia Commons</a>
+            </p>
         </section>
 
-        <section class="all-places">
-            <h2>Tourist Destinations</h2>
-            <div id="all-places-container"></div>
+        <section>
+            <h2>Content</h2>
+            <p>
+                The descriptions, travel tips, and information about tourist attractions were written and organized by Virginia Rocha for this educational project.
+            </p>
         </section>
     </main>
 
@@ -87,7 +95,7 @@
     </footer>
 
     <script src="scripts/navigation.js" defer></script>
-    <script type="module" src="scripts/places.js"></script>
+
 </body>
 
 </html>

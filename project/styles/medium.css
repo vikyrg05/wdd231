@@ -1,0 +1,65 @@
+@media (min-width: 768px) {
+    header {
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    h1 {
+        margin: 0;
+    }
+
+    #menu-button {
+        display: none;
+    }
+
+    #nav-menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin-top: 0;
+        gap: 1.5rem;
+    }
+
+    .hero-text {
+        max-width: 50%;
+    }
+
+    #places-container {
+        display: grid;
+        grid-template-columns: repeat(2,  1fr);
+        gap: 1.5rem;
+    }
+
+    .place-card {
+        margin-bottom: 0;
+        transition: transform 0.2s ease;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        text-align: left;
+    }
+
+    .footer-social {
+        justify-content: center;
+        margin: 0;
+    }
+
+    .footer-info {
+        text-align: right;
+    }
+
+    #all-places-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+
+    .tips-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

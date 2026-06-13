@@ -1,0 +1,137 @@
+[
+    {
+        "name": "Cristo de la Concordia",
+        "image": "images/cristo_concordia.webp",
+        "location": "San Pedro Hill, Cochabamba",
+        "category": "Monument",
+        "description": "One of the largest statues of Jesus Christ in the world, offering a spectacular panoramic view of the city.",
+        "hours": "6:00 AM - 10:00 PM",
+        "bestTime": "Sunrise or sunset"
+    },
+    {
+        "name": "La Cancha Market",
+        "image": "images/la_cancha.webp",
+        "location": "Central Cochabamba",
+        "category": "Culture",
+        "description": "One of the largest open-air markets in South America, famous for local products, food, and traditional goods.",
+        "hours": "7:00 AM - 7:00 PM",
+        "bestTime": "Morning"
+    },
+    {
+        "name": "Tunari National Park",
+        "image": "images/tunari.webp",
+        "location": "North of Cochabamba",
+        "category": "Nature",
+        "description": "A beautiful protected area with mountains, hiking trails, and impressive views of the valley.",
+        "hours": "Open all day",
+        "bestTime": "Dry season"
+    },
+    {
+        "name": "September 14 Square",
+        "image": "images/september14-square.webp",
+        "location": "Downtown Cochabamba",
+        "category": "Historic",
+        "description": "The main square of the city surrounded by important historical buildings and gardens.",
+        "hours": "Open all day",
+        "bestTime": "Afternoon"
+    },
+    {
+        "name": "Portales Palace",
+        "image": "images/portales-palace.webp",
+        "location": "Cochabamba",
+        "category": "Museum",
+        "description": "A historic palace with European architecture, gardens, and an important cultural collection.",
+        "hours": "9:00 AM - 5:00 PM",
+        "bestTime": "Morning"
+    },
+    {
+        "name": "Cochabamba Cathedral",
+        "image": "images/cathedral.webp",
+        "location": "September 14 Square, Cochabamba",
+        "category": "Historic",
+        "description": "A colonial-style cathedral that represents an important part of the city's religious history.",
+        "hours": "8:00 AM - 6:00 PM",
+        "bestTime": "Morning"
+    },
+    {
+        "name": "Martín Cárdenas Botanical Garden",
+        "image": "images/botanical-garden.webp",
+        "location": "South Zone of Cochabamba",
+        "category": "Nature",
+        "description": "A peaceful garden with native plants, flowers, and scientific collections.",
+        "hours": "8:00 AM - 5:00 PM",
+        "bestTime": "Morning"
+    },
+    {
+        "name": "El Paseo del Prado",
+        "image": "images/prado.webp",
+        "location": "Downtown Cochabamba",
+        "category": "Culture",
+        "description": "A popular avenue with restaurants, cafes, monuments, and local activities.",
+        "hours": "Open all day",
+        "bestTime": "Evening"
+    },
+    {
+        "name": "Incallajta Ruins",
+        "image": "images/incallajta.webp",
+        "location": "Pocona, Cochabamba",
+        "category": "Archaeology",
+        "description": "The largest Inca archaeological site in Bolivia with historical structures and amazing landscapes.",
+        "hours": "8:00 AM - 5:00 PM",
+        "bestTime": "Morning"
+    },
+    {
+        "name": "Angostura Lake",
+        "image": "images/angostura.webp",
+        "location": "Tarata, Cochabamba",
+        "category": "Nature",
+        "description": "A scenic lake ideal for relaxing, enjoying local food, and observing the landscape.",
+        "hours": "Open all day",
+        "bestTime": "Afternoon"
+    },
+    {
+        "name": "Tarata Town",
+        "image": "images/tarata.webp",
+        "location": "Tarata, Cochabamba",
+        "category": "Historic",
+        "description": "A colonial town known for its architecture, traditions, and historical atmosphere.",
+        "hours": "Open all day",
+        "bestTime": "Morning"
+    },
+    {
+        "name": "Toro Toro National Park",
+        "image": "images/toro-toro.webp",
+        "location": "Northern Potosí, near Cochabamba",
+        "category": "Nature",
+        "description": "A famous national park with caves, dinosaur footprints, and incredible rock formations.",
+        "hours": "8:00 AM - 5:00 PM",
+        "bestTime": "Dry season"
+    },
+    {
+        "name": "Liriuni Hot Springs",
+        "image": "images/liriuni.webp",
+        "location": "Punata, Cochabamba",
+        "category": "Nature",
+        "description": "A natural thermal spring known for its relaxing waters and beautiful mountain surroundings.",
+        "hours": "8:00 AM - 6:00 PM",
+        "bestTime": "Morning or afternoon"
+    },
+    {
+        "name": "Arani Town",
+        "image": "images/arani.webp",
+        "location": "Arani, Cochabamba",
+        "category": "Culture",
+        "description": "A charming town famous for its traditional bread and local customs.",
+        "hours": "Open all day",
+        "bestTime": "Morning"
+    },
+    {
+        "name": "Pairumani Park",
+        "image": "images/pairumani.webp",
+        "location": "Vinto, Cochabamba",
+        "category": "Nature",
+        "description": "A natural area with gardens, forests, and walking paths near the city.",
+        "hours": "8:00 AM - 5:00 PM",
+        "bestTime": "Morning"
+    }
+]

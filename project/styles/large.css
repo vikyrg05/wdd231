@@ -1,0 +1,39 @@
+@media (min-width: 1024px) {
+    main {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .hero-text {
+        max-width: 40%;
+        padding: 1.5rem;
+    }
+
+    .hero-text h2 {
+        font-size: 2rem;
+    }
+
+    #places-container {
+        grid-template-columns: repeat(3,  1fr);
+    }
+
+    footer {
+        padding: 1.5rem;
+    }
+
+    #all-places-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .tips-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .place-card {
+        transition: transform 0.2s ease;
+    }
+
+    .place-card:hover {
+        transform: translateY(-5px);
+    }
+}
